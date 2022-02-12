@@ -58,6 +58,11 @@ namespace WindowsFormsApp5
             button3.Size = new Size(50, 50);
             this.Controls.Add(button3);
 
+            button4.Text = "+";
+            button4.Location = new Point(560, 350);
+            button4.Size = new Size(50, 50);
+            this.Controls.Add(button4);
+
 
             listBox.Location = new Point(225, 330);
             listBox.Size = new Size(300, 200);
