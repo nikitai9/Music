@@ -1,8 +1,12 @@
-﻿
+﻿using System;
+using System.Drawing;
+using System.Windows.Forms;
+
 namespace WindowsFormsApp5
 {
     partial class Form1
     {
+
         /// <summary>
         /// Обязательная переменная конструктора.
         /// </summary>
@@ -31,9 +35,15 @@ namespace WindowsFormsApp5
         {
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 600);
             this.Text = "Form1";
+
+            pictureBox.BackgroundImage = Image.FromFile("gif.gif");
+            pictureBox.Location = new Point(280, 0);
+            pictureBox.Size = new Size(180, 179);
+            this.Controls.Add(pictureBox);
         }
+        PictureBox pictureBox = new PictureBox();
 
         #endregion
     }
