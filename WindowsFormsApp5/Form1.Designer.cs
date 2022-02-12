@@ -48,10 +48,15 @@ namespace WindowsFormsApp5
             button1.Size = new Size(50, 50);
             this.Controls.Add(button1);
 
-            button2.BackgroundImage = Image.FromFile("play.png"); ;
+            button2.BackgroundImage = Image.FromFile("play.png"); 
             button2.Location = new Point(350, 240);
             button2.Size = new Size(50, 28);
             this.Controls.Add(button2);
+
+            button3.Text = ">"; 
+            button3.Location = new Point(480, 230);
+            button3.Size = new Size(50, 50);
+            this.Controls.Add(button3);
         }
 
         Button button1 = new Button();
