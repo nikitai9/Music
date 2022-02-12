@@ -63,6 +63,10 @@ namespace WindowsFormsApp5
             button4.Size = new Size(50, 50);
             this.Controls.Add(button4);
 
+            button5.Text = "-";
+            button5.Location = new Point(560, 400);
+            button5.Size = new Size(50, 50);
+            this.Controls.Add(button5);
 
             listBox.Location = new Point(225, 330);
             listBox.Size = new Size(300, 200);
