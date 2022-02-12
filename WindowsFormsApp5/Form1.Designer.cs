@@ -42,7 +42,18 @@ namespace WindowsFormsApp5
             pictureBox.Location = new Point(280, 0);
             pictureBox.Size = new Size(180, 179);
             this.Controls.Add(pictureBox);
+
+            button1.Text ="<";
+            button1.Location = new Point(220, 230);
+            button1.Size = new Size(50, 50);
+            this.Controls.Add(button1);
         }
+
+        Button button1 = new Button();
+        Button button2 = new Button();
+        Button button3 = new Button();
+
+
         PictureBox pictureBox = new PictureBox();
 
         #endregion
